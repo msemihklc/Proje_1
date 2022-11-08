@@ -1,0 +1,26 @@
+Proje 2
+
+
+[16,21,11,8,12,22] -> Merge Sort
+
+1.Yukarıdaki dizinin sort türüne göre aşamalar şöyle olur:
+
+[16,21,11] ve [8,12,22]
+
+[16,21] [11] ve [8,12] [22]
+
+[16] [21] ve [11] ayrıca [8] [12] ve [22]
+
+Yine merge etmeye başlarsak:
+
+[16,21] [11] ve [8,12] [22]
+
+Tekrar birleştirince:
+
+[11,16,21] ve [8,12,22]
+
+Yeniden birleştirelim:
+
+[8,11,12,16,21,22] olur
+
+Big-O gösterimi -----> O(n * log(n))
